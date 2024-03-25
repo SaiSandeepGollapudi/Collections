@@ -22,6 +22,7 @@ public class LinkedListPractice {
         }
     }
 }
+
 //
 //        LinkedList<Integer> linkedList2= new LinkedList<>();
 //       linkedList1.add(0);
