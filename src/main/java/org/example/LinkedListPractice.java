@@ -8,8 +8,8 @@ public class LinkedListPractice {
     public static void main(String[] args) {
 
         LinkedList<Integer> linkedList1 = new LinkedList<>(List.of(1,2,3,4));
-
-        System.out.println("Adding the value 2 "+  linkedList1.add(2));
+        linkedList1.pop();
+       // System.out.println("Adding the value 2 "+  ;);
         System.out.println("The value at index 2: "+linkedList1.get(2));
         System.out.println("Values of LinkedList1: "+ linkedList1);
         System.out.println("Reversed values of LinkedList1: "+ linkedList1.reversed());
