@@ -7,9 +7,9 @@ public class TreeSetDemo1 {
         TreeSet<Integer> treeSet = new TreeSet<>();
 
         System.out.println("TreeSet add: "+  treeSet.add(10));
-        treeSet.add(25);
         treeSet.add(30);
         treeSet.add(40);
+        treeSet.add(25);
         treeSet.add(50);
         treeSet.add(70);
         System.out.println("TreeSet after Adding elements: " + treeSet.toString());
