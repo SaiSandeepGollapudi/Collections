@@ -1,6 +1,6 @@
 package org.example;
 
-import java.util.*;
+import java.util.TreeSet;
 
 // Class representing a point with x and y coordinates
 class Point implements Comparable<Point> {
