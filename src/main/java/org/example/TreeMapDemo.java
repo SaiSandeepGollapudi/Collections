@@ -10,11 +10,11 @@ public class TreeMapDemo {
 
         System.out.println("TreeMap before put: "+  treeMap.put(10, "Apple"));
         System.out.println("TreeMap after put: "+  treeMap.put(10, "Apple"));
-        treeMap.put(25, "Banana");
         treeMap.put(30, "Orange");
         treeMap.put(40, "Grapes");
-        treeMap.put(50, "Mango");
+        treeMap.put(25, "Banana");
         treeMap.put(70, "Pineapple");
+        treeMap.put(50, "Mango");
 
         System.out.println("TreeMap after Adding elements: " + treeMap);
 
